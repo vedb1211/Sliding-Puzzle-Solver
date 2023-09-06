@@ -14,19 +14,20 @@ This is a Python program that solves a square puzzle using the Greedy Best First
 
 ## Introduction
 
-Briefly introduce your project. Explain what it does and why it's useful. Provide an overview of the algorithm or approach used in solving the square puzzle.
+This program uses object-oriented programming principles to represent the puzzle, nodes, and the search algorithm. The GBFS algorithm is used to search for the solution by considering the heuristic of the number of tiles out of place.
+
+Heuristic used:
+Number of Misplaced Tiles: This heuristic counts the number of tiles that are out of place in the current state compared to the goal state.
+It considers the correctness of each tile's position independently.
+
 
 ## Features
-
-List the key features of your project:
 
 - Solves square puzzles of different sizes.
 - Visualizes the solved puzzle.
 - Counts the number of explored states and steps taken to reach the solution.
 
 ## Prerequisites
-
-List the prerequisites that users need to install or have available in order to use your program. Include any specific versions if necessary.
 
 - Python 3.x
 - NumPy library
