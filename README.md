@@ -11,6 +11,7 @@ This is a Python program that solves a square puzzle using the Greedy Best First
 - [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
+- [Example](#example)
 
 ## Introduction
 
@@ -32,6 +33,8 @@ It considers the correctness of each tile's position independently.
 - Python 3.x
 - NumPy library
 
+## example
+Example Testcases for the code is been uploaded as 'one.txt' and 'two.txt' files in the repository
 
 
 
